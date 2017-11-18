@@ -7,9 +7,44 @@
 
     <body>
     <h2>Formulaire de renseignement</h2>
-    <p>Nom :</p>
-    <p>Prénom :</p>
-    <p>Sexe :</p>
-    <p>Pays :</p>
+    <form action="destination">
+			<p>
+			<label for="nom">Nom:</label>
+			<input type="text" name="nom" id="nom"/>
+			</p>
+			
+			<p>
+			<label for="prenom">Prénom:</label>
+			<input type="text" name="prenom" id="prenom"/>
+			</p>
+			
+			<legend>Sexe:</legend>
+			
+			<ul>
+			<li>
+			<input type="radio" value="H" name="sexe" id="sH"/>
+			<label for="sH">Homme</label>
+			</li>
+			
+			<li>
+			<input type="radio" value="F" name="sexe" id="sF"/>
+			<label for="sF">Femme</label>
+            </li>
+			</ul>
+			
+			<p>
+			<label for="pays">Pays : </label>
+			<select name="pays" id="pays">
+			<optgroup label="Europe">
+			<option value="fr">France</option>
+			<option value="it">Italie</option>
+			</optgroup>
+			
+			<optgroup label="Asie">
+			<option value="ch">Chine</option>
+			</optgroup>
+			</select>
+			</p>
+			</form>
     </body>
 </html>	
