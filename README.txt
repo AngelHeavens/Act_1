@@ -1,1 +1,3 @@
-réation d'une page de renseignement
+Création d'un formulaire
+
+Formulaire de renseignement basique : Nom, Prénom, Sexe, Provenance
